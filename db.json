@@ -1,12 +1,44 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "next": "/api/v1.0/reaction/activity_id/960c8d60-1447-11ea-8080-800029110fa3/?api_key=4qev8mdk8zug&id_lt=446e6d2b-bd6f-4351-8c4a-7bf7de74a319&limit=1&location=unspecified",
+      "results": [
+        {
+          "created_at": "2019-12-10T09:49:45.519026Z",
+          "updated_at": "2019-12-10T09:49:45.519026Z",
+          "id": "446e6d2b-bd6f-4351-8c4a-7bf7de74a319",
+          "user_id": "5de635df956e37001218d923",
+          "kind": "comment",
+          "activity_id": "960c8d60-1447-11ea-8080-800029110fa3",
+          "data": {
+            "text": "jdkdknaand"
+          },
+          "parent": "",
+          "latest_children": {},
+          "children_counts": {},
+          "user_picture": {
+            "url": "https://img-staging.me2you.com/users/5de635df956e37001218d923/43f76ecb-1738-45e8-a2c4-6bc9bc3c43ee.jpg"
+          },
+          "user_name": "Alex Esteve"
+        }
+      ],
+      "duration": "6.68ms",
+      "activityId": "960c8d60-1447-11ea-8080-800029110fa3"
+    }
   ],
   "profile": {
     "name": "typicode"
